@@ -54,19 +54,6 @@ By default, the application should be available at [http://localhost:3000/](http
 
 After making a commit to `main`, simply push your changes, and the deployment will be handled automatically.
 
-### Static Export
-
-For a static export without deploying to GitHub Pages:
-
-- Remove or disable `.github/workflows/github-pages.yml`.
-- Execute:
-
-  ```bash
-  npm run predeploy
-  ```
-
-This will generate a static version in `personal-site/build/` which you can host or deploy to a CDN.
-
 ## 🙌 Acknowledgements
 
 - Idea & Inspiration [Personal Website](https://github.com/mldangelo/personal-site) by [@mldangelo](https://github.com/mldangelo) .
